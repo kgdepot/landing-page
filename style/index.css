@@ -1,11 +1,15 @@
 * {
-    border: 1px solid red;
+    color: #F9FAF8; /*will remove this*/
+}
+body {
+    margin: 0;
 }
 .header {
     background-color: #1F2937;
     color: #F9FAF8;
-}
-.header .logo {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
 }
 .header ul {
     list-style-type: none;
@@ -24,6 +28,11 @@ h1 {
 }
 .hero {
     background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+
+}
+.hero-left {
 }
 .hero-right {
     width: 400px;
