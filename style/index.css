@@ -25,23 +25,29 @@ body > * {
     font-size: 18px;
 
 }
-
 .header-list a {
     text-decoration: none;
     color: #E5E7EB;
-  
 } 
 
 h1 {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
-
 }
 .hero-left .h1-subtext {
     font-size: 18px;
     color: #E5E7EB;
-
+}
+.hero-button {
+    padding: 8px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    color:  #F9FAF8;
+    background-color: #3882F6;
+    border-width: 0;
+    border-radius: 8px;
+    
 }
 .hero {
     background-color: #1F2937;
