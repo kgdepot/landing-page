@@ -24,9 +24,9 @@ body > * {
     font-size: 18px;
     color: #E5E7EB;
 }
-/* .header-links > a:visited {
-    color: pink;
-} */
+.header-links a {
+    color: #E5E7EB;
+} 
 
 .header a {
     text-decoration: none;
