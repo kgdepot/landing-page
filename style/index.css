@@ -1,0 +1,30 @@
+* {
+    border: 1px solid red;
+}
+.header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+.header .logo {
+}
+.header ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+
+}
+.logo {
+    height: 50px;
+}
+.hero {
+    background-color: #1F2937;
+}
+.hero-right {
+    width: 400px;
+}
