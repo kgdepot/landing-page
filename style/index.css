@@ -81,6 +81,23 @@ img.hero-right  {
     padding: 10px;
     font-size: large;
 }
+.quote-container {
+    background-color: #E5E7EB;
+}
+.quotes li {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: lighter;
+    list-style-type: none;
+    color: rgb(87, 87, 87);
+    padding: 20px;
+}
+.quote-person {
+    font-size: 25px;
+    font-weight: 800;
+    text-align: end;
+    padding: 0 20px 20px 0;
+}
 
 
 
