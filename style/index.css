@@ -4,7 +4,7 @@ body {
     font-family: monospace;
 }
 body > * {
-    padding: 20px 15% 80px 15%;
+    padding: 16px 15% 60px 15%;
 }
 .header {
     background-color: #1F2937;
@@ -12,8 +12,8 @@ body > * {
     justify-content: space-between;
 }
 .logo {
-    height: 50px;
-    margin-right: 40px;
+    height: 30px;
+    margin-right: 28px;
     border-radius: 6%;
 }
 .header-list {
@@ -21,8 +21,8 @@ body > * {
     padding: 0;
     margin: 0;
     display: flex;
-    gap: 30px;
-    font-size: 18px;
+    gap: 24px;
+    font-size: 14px;
 
 }
 .header-list a {
@@ -32,17 +32,18 @@ body > * {
 
 h1 {
     color: #F9FAF8;
-    font-size: 48px;
+    font-size: 35px;
     font-weight: 900;
 }
 
 .hero-left .h1-subtext {
-    font-size: 18px;
+    font-size: 15px;
     color: #E5E7EB;
 }
 .hero-button {
-    padding: 12px 44px;
-    font-size: 16px;
+    padding: 10px 37px;
+    margin-top: 20px;
+    font-size: 14px;
     font-weight: bold;
     color:  #F9FAF8;
     background-color: #3882F6;
@@ -54,53 +55,55 @@ h1 {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
-    gap: 50px;
+    gap: 32px;
 }
  
 img.hero-right  {
-    width: 600px;
+    width: 500px;
     border-radius: 50%;
 }
 
 .highlights-header {
     text-align: center;
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 900;
     color: #1F2937;
-    padding: 30px 0;
+    padding: 12px 0;
 }
 .highlights-content {
     display: flex;
     flex-wrap: wrap;
     list-style-type: none;
+    padding-left: 0;
     gap: 20px;
 }
 .highlights-content > li {
-    flex: 0 1 350px;
+    max-width: 310px;
+    /* flex: 1 1 auto; */
     border: 3px solid #3882F6;
     border-radius: 10px;
     padding: 10px;
-    font-size: large;
+    font-size: 15px;
 }
 .quote-container {
     background-color: #E5E7EB;
 }
 ul.quotes { 
-    padding: 40px 0 0 0;
+    padding: 32px 0 0 0;
 }
 .quotes li {
-    font-size: 30px;
+    font-size: 25px;
     font-style: italic;
     font-weight: lighter;
     list-style-type: none;
     color: rgb(87, 87, 87);
-    padding: 20px;
+    padding: 16px;
 }
 .quote-person {
-    font-size: 34px;
+    font-size: 28px;
     font-weight: 800;
     text-align: end;
-    padding: 0 40px 20px 0;
+    padding: 0 32px 15px 0;
 }
 .sign-up-container {
     flex: 0 1 300px;
@@ -113,25 +116,29 @@ ul.quotes {
     margin: 100px 0;
     padding: 80px 140px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
 .sign-up-box button {
     border: 2px solid white;
+    margin-top: 0;
 }
 .sign-up-head {
     color: #ffffff;
-    font-size: 28px;
+    font-size: 23px;
 }
 .sign-up-description {
     color: #E5E7EB;
+    font-size: 14px;
 }
 div.footer {
     background-color: #1F2937;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     text-align: center;
     color: #E5E7EB;
+    font-size: 14px;
 }
 
 
