@@ -104,6 +104,7 @@ ul.quotes {
 }
 .sign-up-container {
     flex: 0 1 300px;
+    padding-bottom: 20px;
 }
 
 .sign-up-box {
@@ -123,6 +124,13 @@ ul.quotes {
     font-size: 28px;
 }
 .sign-up-description {
+    color: #E5E7EB;
+}
+div.footer {
+    background-color: #1F2937;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
     color: #E5E7EB;
 }
 
