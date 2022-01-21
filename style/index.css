@@ -41,7 +41,7 @@ h1 {
     color: #E5E7EB;
 }
 .hero-button {
-    padding: 8px 40px;
+    padding: 12px 44px;
     font-size: 16px;
     font-weight: bold;
     color:  #F9FAF8;
@@ -97,7 +97,7 @@ ul.quotes {
     padding: 20px;
 }
 .quote-person {
-    font-size: 25px;
+    font-size: 34px;
     font-weight: 800;
     text-align: end;
     padding: 0 40px 20px 0;
@@ -105,20 +105,26 @@ ul.quotes {
 .sign-up-container {
     flex: 0 1 300px;
 }
+
 .sign-up-box {
-    height: 200px;
     background-color: #3882F6;
     border-radius: 8px;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center; */
-}
-.sign-up-box button {
-    /* flex: 0 0 50px; */
-    border: 2px solid white;
+    margin: 100px 0;
+    padding: 80px 140px;
+    display: flex;
+    justify-content: space-between;
 }
 
+.sign-up-box button {
+    border: 2px solid white;
+}
+.sign-up-head {
+    color: #ffffff;
+    font-size: 28px;
+}
+.sign-up-description {
+    color: #E5E7EB;
+}
 
 
 
